@@ -13,8 +13,8 @@
 
 ```
 digital_image_processing/
-├── 0001_Image_Display.ipynb          ☁️  Colab 版本
-├── 0001_Image_Display_Jupyter.ipynb  🖥️  Jupyter 本地版本
+├── 0001_Image_Display.ipynb              Colab 版本
+├── 0001_Image_Display_Jupyter.ipynb      Jupyter 本地版本
 ├── database/                          影像資料夾
 │   ├── Lenna.jpg
 │   ├── Lenna_2.bmp
@@ -28,7 +28,7 @@ digital_image_processing/
 
 本專案提供兩個版本的 notebook，功能相同但執行環境不同：
 
-### ☁️ `0001_Image_Display.ipynb` — Google Colab 版本
+### `0001_Image_Display.ipynb`: Google Colab 版本
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mendresvon/digital_image_processing/blob/main/0001_Image_Display.ipynb)
 
@@ -37,7 +37,7 @@ digital_image_processing/
 - 不支援 `cv2.imshow()` / `cv2.waitKey()` / `cv2.destroyAllWindows()`
 - 部分視窗控制功能已標記跳過
 
-### 🖥️ `0001_Image_Display_Jupyter.ipynb` — 本地 Jupyter 版本
+### `0001_Image_Display_Jupyter.ipynb`: 本地 Jupyter 版本
 
 - 使用本地相對路徑 `./database/`，**無需** Google Drive
 - 使用 `matplotlib` inline 顯示影像（推薦）
